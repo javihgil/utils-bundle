@@ -1,10 +1,10 @@
 services:
     jhg_utils.doctrine_entity_create.form_handler:
-        class: Jhg\UtilsBundle\Form\Handler\DoctrineEntityFormCreateHandle
+        class: Jhg\UtilsBundle\Form\Handler\DoctrineEntityFormCreateHandler
         arguments: [@doctrine.orm.entity_manager]
 
     jhg_utils.doctrine_entity_update.form_handler:
-        class: Jhg\UtilsBundle\Form\Handler\DoctrineEntityFormUpdateHandle
+        class: Jhg\UtilsBundle\Form\Handler\DoctrineEntityFormUpdateHandler
         arguments: [@doctrine.orm.entity_manager]
 
     create_form_handler:
