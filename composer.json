@@ -1,5 +1,6 @@
 {
     "name": "javihgil/utils-bundle",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Jhg\\UtilsBundle\\": ""
