@@ -7,3 +7,8 @@ services:
         class: Jhg\UtilsBundle\Form\Handler\DoctrineEntityFormUpdateHandle
         arguments: [@doctrine.orm.entity_manager]
 
+    create_form_handler:
+        alias: jhg_utils.doctrine_entity_create.form_handler
+
+    update_form_handler:
+        alias: jhg_utils.doctrine_entity_update.form_handler
