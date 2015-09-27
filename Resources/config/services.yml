@@ -7,8 +7,15 @@ services:
         class: Jhg\UtilsBundle\Form\Handler\DoctrineEntityFormUpdateHandler
         arguments: [@doctrine.orm.entity_manager]
 
+    jhg_utils.doctrine_entity_delete.form_handler:
+        class: Jhg\UtilsBundle\Form\Handler\DoctrineEntityFormDeleteHandler
+        arguments: [@doctrine.orm.entity_manager]
+
     create_form_handler:
         alias: jhg_utils.doctrine_entity_create.form_handler
 
     update_form_handler:
         alias: jhg_utils.doctrine_entity_update.form_handler
+
+    delete_form_handler:
+        alias: jhg_utils.doctrine_entity_delete.form_handler
