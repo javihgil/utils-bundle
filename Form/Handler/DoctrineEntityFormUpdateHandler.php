@@ -16,11 +16,11 @@ use Symfony\Component\Form\Form;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
- * Class AbstractFormCreateHandler
+ * Class DoctrineEntityFormUpdateHandler
  *
  * @package Jhg\UtilsBundle\Form\Handler
  */
-abstract class AbstractFormCreateHandler implements FormHandlerInterface
+class DoctrineEntityFormUpdateHandler implements FormHandlerInterface
 {
 
     /**
