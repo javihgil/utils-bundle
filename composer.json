@@ -1,0 +1,19 @@
+{
+    "name": "javihgil/utils-bundle",
+    "autoload": {
+        "psr-4": {
+            "Jhg\\UtilsBundle\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "require": {
+        "symfony/form": "~2.3",
+        "symfony/http-foundation": "~2.3",
+        "doctrine/orm": "~2.2,>=2.2.3"
+    }
+}
