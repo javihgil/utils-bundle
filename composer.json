@@ -12,8 +12,11 @@
         "mockery/mockery": "0.9.*"
     },
     "require": {
+        "symfony/config": "~2.3",
         "symfony/form": "~2.3",
         "symfony/http-foundation": "~2.3",
+        "symfony/http-kernel": "~2.3",
+        "symfony/dependency-injection": "~2.3",
         "doctrine/orm": "~2.2,>=2.2.3"
     }
 }
